@@ -13,6 +13,4 @@ jobs:
         with:
           node-version: "22"
       - name: Build
-        env:
-          API_KEY: demo-key-12345
         run: node build.js
